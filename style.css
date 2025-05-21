@@ -1,0 +1,81 @@
+﻿/* Light blue + sea green theme */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #d0f0f0, #cce7ff);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid #a3d5d3;
+}
+
+h1 {
+  color: #006d77;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#currentDate {
+  text-align: center;
+  color: #3a506b;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input {
+  width: calc(100% - 22px);
+  background-color: #f0fbfc;
+}
+
+button {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077b6;
+}
+
+.student-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #edf6f9;
+  border-radius: 8px;
+  margin: 8px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.status-btns button {
+  margin-left: 5px;
+  background-color: #e0f7fa;
+  color: #0077b6;
+}
+
+.status-btns button:hover {
+  background-color: #b2ebf2;
+}
+
+.selected {
+  background-color: violet !important;
+  color: white !important;
+  font-weight: bold;
+}
